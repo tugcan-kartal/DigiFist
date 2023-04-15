@@ -8,13 +8,14 @@ import BlueOne from "../static/blueone.jpg";
 const HomePage = () => {
   return (
     <div>
-        <div className='flex w-[1440px] h-[864px] overflow-x-scrool'>
+        <div className='flex w-[1440px] h-[864px] overflow-x-hidden'>
 
             <div>
                 <img className='w-[720px] h-[864px]' src={Girl} alt='not found'/>
             </div>
 
             <div className='right-section w-[720px] h-[864px]'>
+
                 <div className='ml-[120px] mt-[96px] mb-[92px]'>
 
                     <div className='textone w-[494px] h-[123px] mb-[12px] mr-[106px] font-[700px] text-[31.25px] leading-[130%] items-end'>
