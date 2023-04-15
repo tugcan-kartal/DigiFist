@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Pro';
+    src: url('../static/fonts/ITCAvantGardePro-Bold.otf') format('opentype');
+}
+
+.textone {
+    font-family: 'ITC Avant Garde Gothic Pro', sans-serif;
+}
