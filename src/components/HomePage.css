@@ -30,3 +30,29 @@
 .line{
     background: #000000;
 }
+
+.productdescription{
+    font-family: 'Avenir';
+    color: #000000;
+}
+
+.price{
+    font-family: 'Avenir';
+    color: #000000;
+}
+
+.roundone{
+    background: #99C4CC;
+}
+
+.roundtwo{
+    background: #CC9999;
+}
+
+.roundthree{
+    background: #CB99CC;
+}
+
+.roundfour{
+    background: #A6CC99;
+}
