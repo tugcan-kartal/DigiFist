@@ -8,83 +8,83 @@ import BlueOne from "../static/blueone.jpg";
 const HomePage = () => {
   return (
     <div>
-        <div className='flex w-[1440px] h-[864px] overflow-x-hidden'>
+        <div className='flex sm:flex-row flex-col sm:w-[1440px] w-[360px] sm:h-[864px] h-[754px] overflow-x-hidden'>
 
             <div>
-                <img className='w-[720px] h-[864px]' src={Girl} alt='not found'/>
+                <img className='sm:w-[720px] w-[360px] sm:h-[864px] h-[437px]' src={Girl} alt='not found'/>
             </div>
 
-            <div className='right-section w-[720px] h-[864px]'>
+            <div className='right-section sm:w-[720px] sm:h-[864px]'>
 
-                <div className='ml-[120px] mt-[96px] mb-[92px]'>
+                <div className='sm:ml-[120px] sm:mt-[96px] sm:mb-[92px]'>
 
-                    <div className='textone w-[494px] h-[123px] mb-[12px] mr-[106px] font-[700px] text-[31.25px] leading-[130%] items-end'>
+                    <div className='textone sm:w-[494px] sm:h-[123px] sm:mb-[12px] sm:mr-[106px] sm:font-[700px] sm:text-[31.25px] sm:leading-[130%] sm:items-end'>
                         Everyday items, we have something to suit every occasion.
                     </div>
 
-                    <div className='texttwo w-[432px] h-[52px] mb-[32px] mr-[168px] font-normal text-[16px] leading-[160%]'>
+                    <div className='texttwo sm:w-[432px] sm:h-[52px] sm:mb-[32px] sm:mr-[168px] sm:font-normal sm:text-[16px] sm:leading-[160%]'>
                         At suspendisse augue lectus arcu, accumsan ut sit posuere vitae sit tincidunt semper eu proin leo gravida cursus.
                     </div>
 
-                    <button className='textthree w-[146px h-[17px] mb-[5px] mr-[454px] font-black text-[12.8px] leading-[17px] items-center capitalize'>
+                    <button className='textthree sm:w-[146px] sm:h-[17px] sm:mb-[5px] sm:mr-[454px] sm:font-black sm:text-[12.8px] sm:leading-[17px] sm:items-center sm:capitalize'>
                         Shop all everyday items
                     </button>
 
-                    <button className='line w-[146px] h-[1px] mb-[68px] mr-[454px] block'>
+                    <button className='line sm:w-[146px] sm:h-[1px] sm:mb-[68px] sm:mr-[454px] block'>
                         
                     </button>
 
-                    <div className='w-[906px] h-[363px] flex gap-x-[32px]'>
+                    <div className='sm:w-[906px] sm:h-[363px] flex sm:gap-x-[32px]'>
                         
-                        <div className='w-[230px] h-[363px] mb-[92px]'>
+                        <div className='sm:w-[230px] sm:h-[363px] sm:mb-[92px]'>
 
-                            <div className='w-[230px] h-[310px] mb-[12px]'>
-                                <img className='w-[230px] h-[310px]' src={GreenOne} alt='not found'/>
+                            <div className='sm:w-[230px] sm:h-[310px] sm:mb-[12px]'>
+                                <img className='sm:w-[230px] sm:h-[310px]' src={GreenOne} alt='not found'/>
                             </div>
-                            <div className='productdescription w-[230px] h-[20px] mb-[4px] font-normal text-[12.8px] leading-[160%]'>365 Signature Hoodie</div>
-                            <div className='flex gap-x-[118px]'>
-                                <div className='price w-[40px] h-[20px] font-medium text-[12.8px] leading-[160%]'>€33.95</div>
-                                <div className='flex gap-x-[8px]'>
-                                    <div className='roundone w-[12px] h-[12px] mt-[4px] rounded-lg'></div>
-                                    <div className='roundtwo w-[12px] h-[12px] mt-[4px] rounded-lg'></div>
-                                    <div className='roundthree w-[12px] h-[12px] mt-[4px] rounded-lg'></div>
-                                    <div className='roundfour w-[12px] h-[12px] mt-[4px] rounded-lg'></div>
+                            <div className='productdescription sm:w-[230px] sm:h-[20px] sm:mb-[4px] sm:font-normal sm:text-[12.8px] sm:leading-[160%]'>365 Signature Hoodie</div>
+                            <div className='flex sm:gap-x-[118px]'>
+                                <div className='price sm:w-[40px] sm:h-[20px] sm:font-medium sm:text-[12.8px] sm:leading-[160%]'>€33.95</div>
+                                <div className='flex sm:gap-x-[8px]'>
+                                    <div className='roundone sm:w-[12px] sm:h-[12px] sm:mt-[4px] sm:rounded-lg'></div>
+                                    <div className='roundtwo sm:w-[12px] sm:h-[12px] sm:mt-[4px] sm:rounded-lg'></div>
+                                    <div className='roundthree sm:w-[12px] sm:h-[12px] sm:mt-[4px] sm:rounded-lg'></div>
+                                    <div className='roundfour sm:w-[12px] sm:h-[12px] sm:mt-[4px] sm:rounded-lg'></div>
                                 </div>
                             </div>
 
                         </div>
 
-                        <div className='w-[230px] h-[363px] mb-[92px]'>
+                        <div className='sm:w-[230px] sm:h-[363px] sm:mb-[92px]'>
 
-                            <div className='w-[230px] h-[310px] mb-[12px]'>
-                                <img className='w-[230px] h-[310px]' src={WhiteOne} alt='not found'/>
+                            <div className='sm:w-[230px] sm:h-[310px] sm:mb-[12px]'>
+                                <img className='sm:w-[230px] sm:h-[310px]' src={WhiteOne} alt='not found'/>
                             </div>
-                            <div className='productdescription w-[230px] h-[20px] mb-[4px] font-normal text-[12.8px] leading-[160%]'>Organic Skinny High Waist Jeans</div>
-                            <div className='flex gap-x-[118px]'>
-                                <div className='price w-[40px] h-[20px] font-medium text-[12.8px] leading-[160%]'>€33.95</div>
-                                <div className='flex gap-x-[8px]'>
-                                    <div className='roundone w-[12px] h-[12px] mt-[4px] rounded-lg'></div>
-                                    <div className='roundtwo w-[12px] h-[12px] mt-[4px] rounded-lg'></div>
-                                    <div className='roundthree w-[12px] h-[12px] mt-[4px] rounded-lg'></div>
-                                    <div className='roundfour w-[12px] h-[12px] mt-[4px] rounded-lg'></div>
+                            <div className='productdescription sm:w-[230px] sm:h-[20px] sm:mb-[4px] sm:font-normal sm:text-[12.8px] sm:leading-[160%]'>Organic Skinny High Waist Jeans</div>
+                            <div className='flex sm:gap-x-[118px]'>
+                                <div className='price sm:w-[40px] sm:h-[20px] sm:font-medium sm:text-[12.8px] sm:leading-[160%]'>€33.95</div>
+                                <div className='flex sm:gap-x-[8px]'>
+                                    <div className='roundone sm:w-[12px] sm:h-[12px] sm:mt-[4px] rounded-lg'></div>
+                                    <div className='roundtwo sm:w-[12px] sm:h-[12px] sm:mt-[4px] rounded-lg'></div>
+                                    <div className='roundthree sm:w-[12px] sm:h-[12px] sm:mt-[4px] rounded-lg'></div>
+                                    <div className='roundfour sm:w-[12px] sm:h-[12px] sm:mt-[4px] rounded-lg'></div>
                                 </div>
                             </div>
 
                         </div>
 
-                        <div className='w-[230px] h-[363px] mb-[92px]'>
+                        <div className='sm:w-[230px] sm:h-[363px] sm:mb-[92px]'>
 
-                            <div className='w-[230px] h-[310px] mb-[12px]'>
-                                <img className='w-[230px] h-[310px]' src={BlueOne} alt='not found'/>
+                            <div className='sm:w-[230px] sm:h-[310px] sm:mb-[12px]'>
+                                <img className='sm:w-[230px] sm:h-[310px]' src={BlueOne} alt='not found'/>
                             </div>
-                            <div className='productdescription w-[230px] h-[20px] mb-[4px] font-normal text-[12.8px] leading-[160%]'>Organic Skinny High Waist Jeans</div>
-                            <div className='flex gap-x-[118px]'>
-                                <div className='price w-[40px] h-[20px] font-medium text-[12.8px] leading-[160%]'>€33.95</div>
-                                <div className='flex gap-x-[8px]'>
-                                    <div className='roundone w-[12px] h-[12px] mt-[4px] rounded-lg'></div>
-                                    <div className='roundtwo w-[12px] h-[12px] mt-[4px] rounded-lg'></div>
-                                    <div className='roundthree w-[12px] h-[12px] mt-[4px] rounded-lg'></div>
-                                    <div className='roundfour w-[12px] h-[12px] mt-[4px] rounded-lg'></div>
+                            <div className='productdescription sm:w-[230px] sm:h-[20px] sm:mb-[4px] sm:font-normal sm:text-[12.8px] sm:leading-[160%]'>Organic Skinny High Waist Jeans</div>
+                            <div className='flex sm:gap-x-[118px]'>
+                                <div className='price sm:w-[40px] sm:h-[20px] sm:font-medium sm:text-[12.8px] sm:leading-[160%]'>€33.95</div>
+                                <div className='flex sm:gap-x-[8px]'>
+                                    <div className='roundone sm:w-[12px] sm:h-[12px] sm:mt-[4px] rounded-lg'></div>
+                                    <div className='roundtwo sm:w-[12px] sm:h-[12px] sm:mt-[4px] rounded-lg'></div>
+                                    <div className='roundthree sm:w-[12px] sm:h-[12px] sm:mt-[4px] rounded-lg'></div>
+                                    <div className='roundfour sm:w-[12px] sm:h-[12px] sm:mt-[4px] rounded-lg'></div>
                                 </div>
                             </div>
 
