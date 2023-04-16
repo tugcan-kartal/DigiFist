@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a4d364be.css",
+    "main.js": "/static/js/main.8cd5232e.js",
+    "static/js/787.859efdd5.chunk.js": "/static/js/787.859efdd5.chunk.js",
+    "static/media/Avenir.ttc": "/static/media/Avenir.bd849aa48220dc5266c4.ttc",
+    "static/media/girl.jpg": "/static/media/girl.cf67594183f81d99fc40.jpg",
+    "static/media/greenone.jpg": "/static/media/greenone.398bd673f9ba3ef6b67b.jpg",
+    "static/media/ITCAvantGardePro-Bold.otf": "/static/media/ITCAvantGardePro-Bold.e7bb9f7b5abf08aa7078.otf",
+    "static/media/blueone.jpg": "/static/media/blueone.9eba6378a7369debcd9a.jpg",
+    "static/media/whiteone.jpg": "/static/media/whiteone.f6c07cbca162bdcbaa1b.jpg",
+    "index.html": "/index.html",
+    "main.a4d364be.css.map": "/static/css/main.a4d364be.css.map",
+    "main.8cd5232e.js.map": "/static/js/main.8cd5232e.js.map",
+    "787.859efdd5.chunk.js.map": "/static/js/787.859efdd5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a4d364be.css",
+    "static/js/main.8cd5232e.js"
+  ]
+}
