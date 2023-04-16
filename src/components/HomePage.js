@@ -19,7 +19,7 @@ const HomePage = () => {
                 <div className='sm:ml-[120px] sm:mt-[96px] sm:mb-[92px]'>
 
                     <div className='textone sm:w-[494px] w-[312px] sm:h-[123px] h-[78px] sm:mb-[12px] mb-[16px] sm:mr-[106px] sm:font-[700px] font-[700px] sm:text-[31.25px] text-[20px] sm:leading-[130%] leading-[130%] sm:items-end sm:text-boldblack text-lightwhite'>
-                        Everyday items, we have something to suit every occasion.
+                        Everyday <span className='sm:inline hidden'>items,</span> <span className='sm:hidden inline'>tops,</span> we have something to suit every occasion.
                     </div>
 
                     <div className='texttwo sm:block hidden sm:w-[432px] sm:h-[52px] sm:mb-[32px] sm:mr-[168px] sm:font-normal sm:text-[16px] sm:leading-[160%]'>
@@ -41,7 +41,7 @@ const HomePage = () => {
                             <div className='sm:w-[230px] w-[148px] sm:h-[310px] h-[200px] sm:mb-[12px] mb-[8px]'>
                                 <img className='sm:w-[230px] w-[148px] sm:h-[310px] h-[200px]' src={GreenOne} alt='not found'/>
                             </div>
-                            <div className='productdescription sm:w-[230px] w-[149px] sm:h-[20px] h-[40px] sm:mb-[4px] mb-[4px] sm:font-normal font-normal sm:text-[12.8px] text-[12.8px] sm:leading-[160%] leading-[20.48px]'>365 Signature Hoodie</div>
+                            <div className='productdescription sm:w-[230px] w-[149px] sm:h-[20px] h-[40px] sm:mb-[4px] mb-[4px] sm:font-normal font-normal sm:text-[12.8px] text-[12.8px] sm:leading-[160%] leading-[20.48px]'><span className='sm:inline hidden'>365 Signature Hoodie</span> <span className='sm:hidden inline'>Organic Skinny High Waist Jeans</span></div>
                             <div className='flex sm:flex-row flex-col sm:gap-x-[118px] gap-x-[0px]'>
                                 <div className='price sm:w-[40px] w-[40px] sm:h-[20px] h-[20px] sm:font-medium font-medium sm:text-[12.8px] text-[12.8px] sm:leading-[160%] leading-[20.48px]'>€33.95</div>
                                 <div className='flex sm:gap-x-[8px] gap-x-[6px]'>
