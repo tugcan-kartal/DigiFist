@@ -34,21 +34,21 @@ const HomePage = () => {
                         
                     </button>
 
-                    <div className='sm:w-[906px] sm:h-[363px] flex sm:gap-x-[32px]'>
+                    <div className='sm:w-[906px] sm:h-[363px] flex sm:gap-x-[32px] gap-x-[12px]'>
                         
                         <div className='sm:w-[230px] sm:h-[363px] sm:mb-[92px]'>
 
-                            <div className='sm:w-[230px] sm:h-[310px] sm:mb-[12px]'>
-                                <img className='sm:w-[230px] sm:h-[310px]' src={GreenOne} alt='not found'/>
+                            <div className='sm:w-[230px] w-[148px] sm:h-[310px] h-[200px] sm:mb-[12px] mb-[8px]'>
+                                <img className='sm:w-[230px] w-[148px] sm:h-[310px] h-[200px]' src={GreenOne} alt='not found'/>
                             </div>
-                            <div className='productdescription sm:w-[230px] sm:h-[20px] sm:mb-[4px] sm:font-normal sm:text-[12.8px] sm:leading-[160%]'>365 Signature Hoodie</div>
-                            <div className='flex sm:gap-x-[118px]'>
-                                <div className='price sm:w-[40px] sm:h-[20px] sm:font-medium sm:text-[12.8px] sm:leading-[160%]'>€33.95</div>
-                                <div className='flex sm:gap-x-[8px]'>
-                                    <div className='roundone sm:w-[12px] sm:h-[12px] sm:mt-[4px] sm:rounded-lg'></div>
-                                    <div className='roundtwo sm:w-[12px] sm:h-[12px] sm:mt-[4px] sm:rounded-lg'></div>
-                                    <div className='roundthree sm:w-[12px] sm:h-[12px] sm:mt-[4px] sm:rounded-lg'></div>
-                                    <div className='roundfour sm:w-[12px] sm:h-[12px] sm:mt-[4px] sm:rounded-lg'></div>
+                            <div className='productdescription sm:w-[230px] w-[149px] sm:h-[20px] h-[40px] sm:mb-[4px] mb-[4px] sm:font-normal font-normal sm:text-[12.8px] text-[12.8px] sm:leading-[160%] leading-[20.48px]'>365 Signature Hoodie</div>
+                            <div className='flex sm:flex-row flex-col sm:gap-x-[118px] gap-x-[0px]'>
+                                <div className='price sm:w-[40px] w-[40px] sm:h-[20px] h-[20px] sm:font-medium font-medium sm:text-[12.8px] text-[12.8px] sm:leading-[160%] leading-[20.48px]'>€33.95</div>
+                                <div className='flex sm:gap-x-[8px] gap-x-[6px]'>
+                                    <div className='roundone sm:w-[12px] w-[12px] sm:h-[12px] h-[12px] sm:mt-[4px] mt-[8px] sm:rounded-lg rounded-lg'></div>
+                                    <div className='roundtwo sm:w-[12px] w-[12px] sm:h-[12px] h-[12px] sm:mt-[4px] mt-[8px] sm:rounded-lg rounded-lg'></div>
+                                    <div className='roundthree sm:w-[12px] w-[12px] sm:h-[12px] h-[12px] sm:mt-[4px] mt-[8px] sm:rounded-lg rounded-lg'></div>
+                                    <div className='roundfour sm:w-[12px] w-[12px] sm:h-[12px] h-[12px] sm:mt-[4px] mt-[8px] sm:rounded-lg rounded-lg'></div>
                                 </div>
                             </div>
 
