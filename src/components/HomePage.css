@@ -13,7 +13,7 @@
 }
 
 .textone {
-    font-family: 'ITC Avant Garde Gothic Pro', sans-serif;
+    font-family: 'ITC Avant Garde Gothic Pro';
 }
 
 .texttwo{
@@ -23,12 +23,9 @@
 
 .textthree{
     font-family: 'Avenir';
-    color: #000000;
 }
 
-.line{
-    background: #000000;
-}
+
 
 .productdescription{
     font-family: 'Avenir';

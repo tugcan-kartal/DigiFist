@@ -22,15 +22,15 @@ const HomePage = () => {
                         Everyday items, we have something to suit every occasion.
                     </div>
 
-                    <div className='texttwo sm:w-[432px] sm:h-[52px] sm:mb-[32px] sm:mr-[168px] sm:font-normal sm:text-[16px] sm:leading-[160%]'>
+                    <div className='texttwo sm:block hidden sm:w-[432px] sm:h-[52px] sm:mb-[32px] sm:mr-[168px] sm:font-normal sm:text-[16px] sm:leading-[160%]'>
                         At suspendisse augue lectus arcu, accumsan ut sit posuere vitae sit tincidunt semper eu proin leo gravida cursus.
                     </div>
 
-                    <button className='textthree sm:w-[146px] sm:h-[17px] sm:mb-[5px] sm:mr-[454px] sm:font-black sm:text-[12.8px] sm:leading-[17px] sm:items-center sm:capitalize'>
+                    <button className='textthree sm:w-[146px] w-[146px] sm:h-[17px] h-[17px] sm:mb-[5px] mb-[5px] sm:mr-[454px] mr-[190px] sm:font-black font-black sm:text-[12.8px] text-[12.8px] sm:leading-[17px] leading-[17px] sm:items-center items-center sm:capitalize capitalize sm:text-boldblack text-lightwhite'>
                         Shop all everyday items
                     </button>
 
-                    <button className='line sm:w-[146px] sm:h-[1px] sm:mb-[68px] sm:mr-[454px] block'>
+                    <button className='line sm:w-[146px] w-[146px] sm:h-[1px] h-[1px] sm:mb-[68px] mb-[32px] sm:mr-[454px] mr-[190px] block sm:bg-boldblack bg-lightwhite'>
                         
                     </button>
 
