@@ -45,7 +45,7 @@ const HomePage = () => {
                             <div className='flex sm:flex-row flex-col sm:gap-x-[118px] gap-x-[0px]'>
                                 <div className='price sm:w-[40px] w-[40px] sm:h-[20px] h-[20px] sm:font-medium font-medium sm:text-[12.8px] text-[12.8px] sm:leading-[160%] leading-[20.48px]'>€33.95</div>
                                 <div className='flex sm:gap-x-[8px] gap-x-[6px]'>
-                                    <div className='roundone sm:w-[12px] w-[12px] sm:h-[12px] h-[12px] sm:mt-[4px] mt-[8px] sm:rounded-lg rounded-lg'></div>
+                                    <div className='roundone sm:w-[8px] w-[6.6px] sm:h-[8px] h-[6.6px] sm:mt-[6px] mt-[10px] sm:rounded-lg rounded-lg'></div>
                                     <div className='roundtwo sm:w-[12px] w-[12px] sm:h-[12px] h-[12px] sm:mt-[4px] mt-[8px] sm:rounded-lg rounded-lg'></div>
                                     <div className='roundthree sm:w-[12px] w-[12px] sm:h-[12px] h-[12px] sm:mt-[4px] mt-[8px] sm:rounded-lg rounded-lg'></div>
                                     <div className='roundfour sm:w-[12px] w-[12px] sm:h-[12px] h-[12px] sm:mt-[4px] mt-[8px] sm:rounded-lg rounded-lg'></div>
@@ -63,7 +63,7 @@ const HomePage = () => {
                             <div className='flex sm:flex-row flex-col sm:gap-x-[118px] gap-x-[0px]'>
                                 <div className='price sm:w-[40px] w-[40px] sm:h-[20px] h-[20px] sm:font-medium font-medium sm:text-[12.8px] text-[12.8px] sm:leading-[160%] leading-[20.48px]'>€33.95</div>
                                 <div className='flex sm:gap-x-[8px] gap-x-[6px]'>
-                                    <div className='roundone sm:w-[12px] w-[12px] sm:h-[12px] h-[12px] sm:mt-[4px] mt-[8px] sm:rounded-lg rounded-lg'></div>
+                                    <div className='roundone sm:w-[8px] w-[6.6px] sm:h-[8px] h-[6.6px] sm:mt-[6px] mt-[10px] sm:rounded-lg rounded-lg'></div>
                                     <div className='roundtwo sm:w-[12px] w-[12px] sm:h-[12px] h-[12px] sm:mt-[4px] mt-[8px] sm:rounded-lg rounded-lg'></div>
                                     <div className='roundthree sm:w-[12px] w-[12px] sm:h-[12px] h-[12px] sm:mt-[4px] mt-[8px] sm:rounded-lg rounded-lg'></div>
                                     <div className='roundfour sm:w-[12px] w-[12px] sm:h-[12px] h-[12px] sm:mt-[4px] mt-[8px] sm:rounded-lg rounded-lg'></div>
@@ -81,7 +81,7 @@ const HomePage = () => {
                             <div className='flex sm:flex-row flex-col sm:gap-x-[118px] gap-x-[0px]'>
                                 <div className='price sm:w-[40px] w-[40px] sm:h-[20px] h-[20px] sm:font-medium font-medium sm:text-[12.8px] text-[12.8px] sm:leading-[160%] leading-[20.48px]'>€33.95</div>
                                 <div className='flex sm:gap-x-[8px] gap-x-[6px]'>
-                                    <div className='roundone sm:w-[12px] w-[12px] sm:h-[12px] h-[12px] sm:mt-[4px] mt-[8px] sm:rounded-lg rounded-lg'></div>
+                                    <div className='roundone sm:w-[8px] w-[6.6px] sm:h-[8px] h-[6.6px] sm:mt-[6px] mt-[10px] sm:rounded-lg rounded-lg'></div>
                                     <div className='roundtwo sm:w-[12px] w-[12px] sm:h-[12px] h-[12px] sm:mt-[4px] mt-[8px] sm:rounded-lg rounded-lg'></div>
                                     <div className='roundthree sm:w-[12px] w-[12px] sm:h-[12px] h-[12px] sm:mt-[4px] mt-[8px] sm:rounded-lg rounded-lg'></div>
                                     <div className='roundfour sm:w-[12px] w-[12px] sm:h-[12px] h-[12px] sm:mt-[4px] mt-[8px] sm:rounded-lg rounded-lg'></div>
