@@ -4,6 +4,7 @@ import Girl from "../static/girl.jpg";
 import GreenOne from "../static/greenone.jpg";
 import WhiteOne from "../static/whiteone.jpg" 
 import BlueOne from "../static/blueone.jpg";
+import {AiOutlineRight} from "react-icons/ai"
 
 const HomePage = () => {
   return (
@@ -91,8 +92,15 @@ const HomePage = () => {
                         </div>
 
                     </div>
+
+                    <div className='w-[40px] h-[40px]'>
+                        <AiOutlineRight className='absolute top-[554.5px] left-[1368.5px] px-[13.5px] py-[13.5px] border-gray-400 border-[1px] box-content'/>
+                    </div>
+
                 </div>
             </div>
+
+            
         
         </div>
     </div>
