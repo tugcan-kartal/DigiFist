@@ -14,11 +14,11 @@ const HomePage = () => {
                 <img className='sm:w-[720px] w-[360px] sm:h-[864px] h-[437px]' src={Girl} alt='not found'/>
             </div>
 
-            <div className='right-section sm:w-[720px] sm:h-[864px]'>
+            <div className='right-section sm:w-[720px] w-[360px] sm:h-[864px] h-[441px] sm:static absolute top-[248px] left-[24px]'>
 
                 <div className='sm:ml-[120px] sm:mt-[96px] sm:mb-[92px]'>
 
-                    <div className='textone sm:w-[494px] sm:h-[123px] sm:mb-[12px] sm:mr-[106px] sm:font-[700px] sm:text-[31.25px] sm:leading-[130%] sm:items-end'>
+                    <div className='textone sm:w-[494px] w-[312px] sm:h-[123px] h-[78px] sm:mb-[12px] mb-[16px] sm:mr-[106px] sm:font-[700px] font-[700px] sm:text-[31.25px] text-[20px] sm:leading-[130%] leading-[130%] sm:items-end sm:text-boldblack text-lightwhite'>
                         Everyday items, we have something to suit every occasion.
                     </div>
 
